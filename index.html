@@ -3,48 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>The Weather Chaser</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="weather-app">
-    <header>
-      <form class="search-form">
-        <input type="search" placeholder="Enter a city" required class="search-form-input"/>
-        <input type="submit" value="Search" class="search-button"/>
-      </form>
-    </header>
-    <main>
-      <div>
-      <h1>Brisbane</h1>
-      <p>
-        Tuesday 14:45, sunny
-      </br>
-      Humidity: 78%, Wind: 15km/h
-      </p>
-</div>
-<div>
-  🌞 26°C
-</div>
-    </main>
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Brisbane</h1>
+            <p class="weather-app-details">
+              Tuesday 14:45, sunny
+              <br />
+              Humidity: <strong>88%</strong>, Wind: <strong>17km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-emoji">🌞</div>
+            <div class="weather-app-temperature">26</div>
+            <div class="weather-app-temperature-unit">°C</div>
+          </div>
+        </div>
+      </main>
       <footer>
-      Coded by
-      <a href="https://github.com/AmandaMareeJones" target="_blank"
-        >Amanda Jones</a
-      >, open-sourced on
-      <a
-        href="https://github.com/AmandaMareeJones/The-Weather-Chaser"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://theweatherchaser.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+        Coded by
+        <a href="https://github.com/AmandaMareeJones" target="_blank"
+          >Amanda Jones</a
+        >, open-sourced on
+        <a
+          href="https://github.com/AmandaMareeJones/The-Weather-Chaser"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://theweatherchaser.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
     <script src="index.js"></script>
   </body>
