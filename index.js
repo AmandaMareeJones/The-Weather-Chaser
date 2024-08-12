@@ -4,7 +4,7 @@ function updateWeatherData(response) {
   let cityElement = document.querySelector("#weather-app-city");
   let descriptionElement = document.querySelector("#weather-app-description");
   let humidityElement = document.querySelector("#weather-app-humidity");
-  let windspeedElement = document.querySelector("weather-app-windspeed");
+  let windspeedElement = document.querySelector("#weather-app-windspeed");
   console.log(response.data.description);
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
