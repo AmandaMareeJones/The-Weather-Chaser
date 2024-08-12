@@ -82,18 +82,17 @@ main {
 .weather-app-emoji {
   width: 88px;
   height: 88px;
-  margin-top: 45px;
+  margin-top: 80px;
 }
 
 .weather-app-temperature {
   font-size: 54px;
   font-weight: 600;
-  line-height: 88px;
-  margin-top: 36px;
+  margin-top: 24px;
 }
 
 .weather-app-temperature-unit {
-  margin-top: 55px;
+  margin-top: 40px;
 }
 
 footer {
