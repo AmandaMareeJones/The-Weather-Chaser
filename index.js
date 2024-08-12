@@ -8,7 +8,6 @@ function updateWeatherData(response) {
   let timeElement = document.querySelector("#weather-app-time");
   let date = new Date(response.data.time * 1000);
   let emojiElement = document.querySelector("#weather-app-emoji");
-  console.log(response);
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
