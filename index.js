@@ -17,7 +17,7 @@ function updateWeatherData(response) {
   timeElement.innerHTML = formatDate(date);
   emojiElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 
-  getForecast("Brisbane");
+  getForecast(response.data.city);
 }
 
 function formatDate(date) {
